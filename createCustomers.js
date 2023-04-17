@@ -1,3 +1,6 @@
+// Ho utilizzato il metodo createCustomer nonchè l'quivalente di createUser per definire l'utente che accederà al db. 
+// Ho definito due Item per l'utente e il db scelto è il Dynanodb
+
 'use strict';
 const AWS = require('aws-sdk');
 

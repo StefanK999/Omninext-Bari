@@ -1,3 +1,8 @@
+// Ho utilizzato il metodo getCustomer, nonchè l'quivalente di getUserByld, per ottenere come interrogazione al database l'elenco degli utenti 
+// In output ho i due Item, definiti nel file createCustomers.js, per l'utente e il db scelto è il Dynanodb.
+
+
+
 'use strict';
 const AWS = require('aws-sdk');
  

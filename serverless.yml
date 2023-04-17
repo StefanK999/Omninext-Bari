@@ -15,7 +15,7 @@ provider:
         - "dynamodb:Scan*"
         - "dynamodb:UpdateItem"
         - "dynamodb:DeleteItem"
-      Resource: arn:aws:dynamodb:${aws:region}:${aws:accountId}:table/${self:service}-customersTable-${sls:stage}
+      Resource: arn:aws:dynamodb:us-east-1:936347467867:table/aws-bari-customerTable-dev
   
 
   environment: 
